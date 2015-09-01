@@ -1,9 +1,6 @@
-
-
-def suma(a, b):
-  return a + b
+from funciones import *
   
 
 def test_funcion_suma():
   assert suma(1, 3) == 4
-  assert suma(1, 3) == 5
+  assert resta(3, 2) == 1
